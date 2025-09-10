@@ -32,3 +32,10 @@ for i in newSet.copy():
     if(i in fruits2):
         newSet.remove(i)
 print(newSet)
+
+colors = ("blue", "green", "red", "yellow", "gray")
+print(colors[0])
+print(colors[-1])
+for i in colors:
+    print(i)
+colors[1] = "cyan"
